@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3307
--- Generation Time: April 15, 2022 at 07:43 PM
+-- Generation Time: Jun 26, 2021 at 03:43 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.3
 
@@ -64,10 +64,10 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `company`, `size`, `price`, `image_link`) VALUES
-(1, 'Adidas Originals', 'Adidas', 36, 55, 'https://i8.amplience.net/i/jpl/jd_397863_a?qlt=92&w=750&h=531&v=1&fmt=webp'),
-(2, 'The ZX 750', 'Nike', 36, 131, 'https://i8.amplience.net/i/jpl/jd_355284_a?qlt=92&w=750&h=531&v=1&fmt=webp'),
-(3, 'Nike Air Max 97', 'Nike', 46, 157, 'https://i8.amplience.net/i/jpl/jd_414734_a?qlt=92&w=750&h=531&v=1&fmt=webp'),
-(4, 'Vans Sk8-Hi Flame', 'Vans', 45, 211, 'https://i8.amplience.net/i/jpl/jd_299533_a?qlt=92&w=750&h=531&v=1&fmt=webp');
+(1, 'Nike originals', 'Nike', 34, 55, 'https://i.imgur.com/IPEFD9K.jpg'),
+(2, 'Metro 750', 'Metro', 36, 131, 'https://i.imgur.com/BUko6nK.jpg'),
+(3, 'Woodland originals', 'Woodland', 46, 157, 'https://i.imgur.com/mEbibcc.jpg'),
+(4, 'Sk8-Hi mochi', 'mochi', 45, 211, 'https://i.imgur.com/YOVFaFn.jpg');
 drop table products;
 -- --------------------------------------------------------
 
@@ -88,13 +88,13 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `type`, `username`, `password`, `age`) VALUES
-(1, 0, 'radhika', '1234', 24),
-(2, 0, 'sailu', '1234', 34),
-(3, 0, 'virat', '1234', 1),
-(4, 0, 'anushka', '1234', 23),
+(1, 0, 'virat', '1234', 24),
+(2, 0, 'anushka', '1234', 34),
+(3, 0, 'sachin', '1234', 1),
+(4, 0, 'waheed', '1234', 23),
 (16, 1, 'admin', 'admin', 0),
-(17, 0, 'sachin', '4242', 24),
-(20, 0, 'kohli', '12345', 33);
+(17, 0, 'sailu', '4242', 24),
+(20, 0, 'anju', '12345', 33);
 drop table users;
 
 --
