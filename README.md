@@ -81,7 +81,7 @@ How to run the program:-
 
 • clone project
 
-o clone git : git clone sreelakshmanaramesh/E-commerce-website-for-sporty-shoes-phase-3-project
+o clone git : git clone https://github.com/sreelakshmanaramesh/E-commerce-website-for-sporty-shoes-phase-3-project
 
 • Import the “main\webapp\resources\database\sporty-shoes.sql” file to your database administration tool.
 
