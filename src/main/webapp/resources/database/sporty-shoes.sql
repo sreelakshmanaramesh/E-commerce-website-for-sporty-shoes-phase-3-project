@@ -64,10 +64,10 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `company`, `size`, `price`, `image_link`) VALUES
-(1, 'Nike originals', 'Nike', 34, 55, 'https://i.imgur.com/IPEFD9K.jpg'),
-(2, 'Metro 750', 'Metro', 36, 131, 'https://i.imgur.com/BUko6nK.jpg'),
-(3, 'Woodland originals', 'Woodland', 46, 157, 'https://i.imgur.com/mEbibcc.jpg'),
-(4, 'Sk8-Hi mochi', 'mochi', 45, 211, 'https://i.imgur.com/YOVFaFn.jpg');
+(1, 'Nike originals', 'Nike', 34, 55, 'https://i8.amplience.net/i/jpl/jd_397863_a?qlt=92&w=750&h=531&v=1&fmt=webp'),
+(2, 'Metro 750', 'Metro', 36, 131, 'https://i8.amplience.net/i/jpl/jd_355284_a?qlt=92&w=750&h=531&v=1&fmt=webp'),
+(3, 'Woodland originals', 'Woodland', 46, 157, 'https://i8.amplience.net/i/jpl/jd_414734_a?qlt=92&w=750&h=531&v=1&fmt=webp'),
+(4, 'Sk8-Hi mochi', 'mochi', 45, 211, 'https://i8.amplience.net/i/jpl/jd_299533_a?qlt=92&w=750&h=531&v=1&fmt=webp');
 drop table products;
 -- --------------------------------------------------------
 
